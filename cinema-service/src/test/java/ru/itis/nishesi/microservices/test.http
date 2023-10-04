@@ -1,0 +1,2 @@
+GET localhost:8080/api/cinema?api-key=1234&city=Казань&page=100
+Content-Type: application/json

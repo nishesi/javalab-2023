@@ -16,7 +16,7 @@ import ru.itis.nishesi.microservices.validation.ValidPageable;
 
 @Validated
 @RestController
-@RequestMapping("/cinema")
+@RequestMapping("/api/cinema")
 @RequiredArgsConstructor
 public class CinemaController {
     private final CinemaService cinemaService;

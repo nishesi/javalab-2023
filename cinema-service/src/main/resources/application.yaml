@@ -4,3 +4,6 @@ server:
 app:
   yandex-maps:
     apikey: ${YANDEX_MAPS_APIKEY}
+  api:
+    authentication:
+      key: ${APP_API_KEY}
