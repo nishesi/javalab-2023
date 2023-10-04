@@ -1,1 +1,1 @@
-GET localhost:8081/hotel?city=Казань
+GET localhost:8081/api/hotel?api-key=8081&city=Казань

@@ -16,7 +16,7 @@ import ru.itis.nishesi.microservices.validation.ValidPageable;
 
 @Validated
 @RestController
-@RequestMapping("/hotel")
+@RequestMapping("/api/hotel")
 @RequiredArgsConstructor
 public class HotelController {
     private final HotelService hotelService;
